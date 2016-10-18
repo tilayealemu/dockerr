@@ -2,7 +2,7 @@
 
 Repository to demonstrate how to use R from Java. There are generally two ways of interfacing with R from Java. One of them is to run Rserve and call it from Java. Docker is a great solution for running an instance of Rserve without hassle.
 
-Usage
+## Usage
 - Install [docker](https://docs.docker.com/engine/installation/) if you don't have it yet.
 - Run Rserve. This command will pull datadonkey Rserve image and run it locally, exposing the default Rserve port 6311.
 ```bash
