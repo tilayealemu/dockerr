@@ -4,9 +4,9 @@ Repository to demonstrate how to use R from Java. There are generally two ways o
 
 ## Usage
 - Install [docker](https://docs.docker.com/engine/installation/) if you don't have it yet.
-- Run Rserve. This command will pull datadonkey Rserve image and run it locally, exposing the default Rserve port 6311.
+- Run Rserve. This command will pull tilayealemu/Rserve image and run it locally, exposing the default Rserve port 6311.
 ```bash
-docker run -p6311:6311 datadonkey/dockerr
+docker run -p6311:6311 tilayealemu/dockerr
 ```
 - You're now ready to run R scripts from Java. Here is an example that defines multiply function, calls it and prints the result. You can find the full source code in the sample directory.
 ```java
